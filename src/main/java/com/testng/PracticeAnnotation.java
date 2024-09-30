@@ -1,0 +1,29 @@
+package com.testng;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class PracticeAnnotation {
+	@Test
+	public void getCart() {
+		
+		System.out.println("This is Test annotation"); 
+	}
+	@BeforeMethod
+	public void getShopping(){
+		System.out.println("This is BeforeMethod annotation");
+		
+		
+	}
+	@AfterSuite
+	public void getMoney() {
+		System.out.println("This is AfterSuit annotation");
+	}
+	@BeforeTest
+	public void getSelary() {
+		System.out.println("This is BeforeTest annotation");
+	}
+
+}

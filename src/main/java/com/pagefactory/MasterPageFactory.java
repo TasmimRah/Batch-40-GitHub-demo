@@ -21,6 +21,16 @@ public class MasterPageFactory
 	@FindBy(xpath="(//*[@class='btn btn-default'])[1]")
 	private WebElement login;
 	
+	public WebElement getGroceries_freshbtn() {
+		return groceries_freshbtn;
+	}
+	@FindBy(xpath="(//*[@class='f3-cgi-flyout-store-img'])[1]")
+	private WebElement groceries_freshbtn;
+	@FindBy (xpath="//*[text()='Groceries']")
+	private WebElement groceries_amazon;
+	public WebElement getGroceries_amazon() {
+		return groceries_amazon;
+	}
 	@FindBy(xpath ="//*[text()=' Logout']")
 	private WebElement logout;
 	
