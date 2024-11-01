@@ -18,6 +18,10 @@ public class MasterPageFactory
      private WebElement email;
 	@FindBy(xpath="//*[@name='password']")
 	private WebElement password;
+	
+	public WebElement getPassword() {
+		return password;
+	}
 	@FindBy(xpath="(//*[@class='btn btn-default'])[1]")
 	private WebElement login;
 	
@@ -67,12 +71,7 @@ private WebElement dropdown;
 	public void setEmail(WebElement email) {
 		this.email = email;
 	}
-	public WebElement getPassword() {
-		return password;
-	}
-	public void setPassword(WebElement password) {
-		this.password = password;
-	}
+	
 	public WebElement getLogin() {
 		return login;
 	}

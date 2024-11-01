@@ -1,0 +1,536 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "#common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-11-01T01:18:11.384Z",
+        "line": 4,
+        "name": "As a user, I want to login in to Automation Exercise with valid credential,",
+        "description": "so that I can use this website",
+        "id": "automation-exercise-with-login-testing;as-a-user--i-want-to-login-in-to-automation-exercise-with-valid-credential-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 475000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser",
+            "match": {
+              "location": "com.StepDef.StepDefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the URL",
+            "match": {
+              "location": "com.StepDef.StepDefinition.pass_the_url(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://automationexercise.com/"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on sign in button in homepage",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_sign_in_button_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the email in the email field",
+            "match": {
+              "location": "com.StepDef.StepDefinition.enter_the_email_in_the_email_field(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tasmimrah47@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the password in the password field",
+            "match": {
+              "location": "com.StepDef.StepDefinition.enter_the_password_in_the_password_field(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "NweYork2024"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on the login button",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate that login is successful",
+            "match": {
+              "location": "com.StepDef.StepDefinition.validate_that_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "#common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-11-01T01:18:11.400Z",
+        "line": 28,
+        "name": "As a user, I want to login to Automation Exercise with multiple valid credential,",
+        "description": "so that I can use the website",
+        "id": "automation-exercise-with-login-testing;as-a-user--i-want-to-login-to-automation-exercise-with-multiple-valid-credential-;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 250000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "open the browser",
+            "match": {
+              "location": "com.StepDef.StepDefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "pass the URL \"https://automationexercise.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://automationexercise.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on sign in button in home page",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_sign_in_button_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "pass the email on email field \"tasmimrah47@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tasmimrah47@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_the_email_on_email_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "pass the password in the password field \"NweYork2024\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NweYork2024\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_the_password_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on login button",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "validate that login is successful",
+            "match": {
+              "location": "com.StepDef.StepDefinition.validate_that_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "#common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-11-01T01:18:11.405Z",
+        "line": 29,
+        "name": "As a user, I want to login to Automation Exercise with multiple valid credential,",
+        "description": "so that I can use the website",
+        "id": "automation-exercise-with-login-testing;as-a-user--i-want-to-login-to-automation-exercise-with-multiple-valid-credential-;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "open the browser",
+            "match": {
+              "location": "com.StepDef.StepDefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "pass the URL \"https://automationexercise.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://automationexercise.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on sign in button in home page",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_sign_in_button_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "pass the email on email field \"ahnaf.x.tahmid@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahnaf.x.tahmid@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_the_email_on_email_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "pass the password in the password field \"passWord1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passWord1!\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.StepDef.StepDefinition.pass_the_password_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on login button",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "validate that login is successful",
+            "match": {
+              "location": "com.StepDef.StepDefinition.validate_that_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Exercise with login testing",
+    "description": "Description:#write some important requirement",
+    "id": "automation-exercise-with-login-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "#common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-11-01T01:18:11.410Z",
+        "line": 4,
+        "name": "As a logged-in user, I want to logout from Automation Exercise successfully,",
+        "description": "so thatmy information  is saved",
+        "id": "automation-exercise-with-logout-testing;as-a-logged-in-user--i-want-to-logout-from-automation-exercise-successfully-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser",
+            "match": {
+              "location": "com.StepDef.StepDefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "pass the URL",
+            "match": {
+              "location": "com.StepDef.StepDefinition.pass_the_url(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://automationexercise.com/"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on sign in button in homepage",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_sign_in_button_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the email in the email field",
+            "match": {
+              "location": "com.StepDef.StepDefinition.enter_the_email_in_the_email_field(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tasmimrah47@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the password in the password field",
+            "match": {
+              "location": "com.StepDef.StepDefinition.enter_the_password_in_the_password_field(java.lang.String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "NweYork2024"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on the login button",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on log out button",
+            "match": {
+              "location": "com.StepDef.StepDefinition.click_on_log_out_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validate log out is successful",
+            "match": {
+              "location": "com.StepDef.StepDefinition.validate_log_out_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Exercise with logout testing",
+    "description": "Description:#write some important requirement",
+    "id": "automation-exercise-with-logout-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Logout.feature",
+    "tags": []
+  }
+]

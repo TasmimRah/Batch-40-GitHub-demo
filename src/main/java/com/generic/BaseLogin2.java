@@ -2,6 +2,7 @@ package com.generic;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import com.pagefactory.MasterPageFactory;
 import com.util.BaseConfig;
@@ -35,9 +36,12 @@ public class BaseLogin2 {
 			System.out.println("failed");  
 		} 
 		Screenshot.getScreenShot(driver, "homepage_afterLogin");
-		
+		Assert.assertTrue(mpf.getLogout().isDisplayed(), "Login successful!");
 	driver.quit();
 	}
 	
-
+public static void main(String[] args) {
+	BaseLogin2 obj = new BaseLogin2();
+	obj.getLogin();
+}    
 }
